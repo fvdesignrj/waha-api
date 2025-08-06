@@ -1,8 +1,8 @@
 {
   "name": "waha",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "API de integração com Waha e render",
+  "author": "fvdesignrj",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -24,6 +24,7 @@
     "gows:proto:fetch": "node scripts/gows-proto.js fetch",
     "gows:proto:build": "node scripts/gows-proto.js build",
     "gows:proto": "yarn gows:proto:fetch && yarn gows:proto:build"
+    "postinstall": "yarn add @adiwajshing/baileys@github:devlikeapro/Baileys#fork-master-2025-07-04"
   },
   "dependencies": {
     "@adiwajshing/baileys": "github:devlikeapro/Baileys#fork-master-2025-07-04",

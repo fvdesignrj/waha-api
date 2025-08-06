@@ -156,5 +156,5 @@
     },
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  },
+  }
 }

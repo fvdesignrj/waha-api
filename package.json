@@ -23,9 +23,8 @@
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "gows:proto:fetch": "node scripts/gows-proto.js fetch",
     "gows:proto:build": "node scripts/gows-proto.js build",
-    "gows:proto": "yarn gows:proto:fetch && yarn gows:proto:build",
-    "postinstall": "yarn add @adiwajshing/baileys@github:devlikeapro/Baileys#fork-master-2025-07-04"
-  },
+    "gows:proto": "yarn gows:proto:fetch && yarn gows:proto:build"
+      },
   "dependencies": {
     "@adiwajshing/baileys": "github:devlikeapro/Baileys#fork-master-2025-07-04",
     "@adiwajshing/keyed-db": "^0.2.4",
